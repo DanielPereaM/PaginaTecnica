@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<nav id="navbar">
+    <header>Aprenda a programar con PYTHON</header>
+    <ul>
+        <li><a class="nav-link" href="#Introduccion">Introduccion</a></li>
+        <li><a class="nav-link" href="#Historia">Historia</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Tipado">Tipado</a></li>
+        <li><a class="nav-link" href="#Tipo_de_datos">Tipo de datos</a></li>
+        <li><a class="nav-link" href="#Números_enteros">Números enteros</a></li>
+        <li><a class="nav-link" href="#Float">Float</a></li>
+        <li><a class="nav-link" href="#Números_complejos">Números_complejos</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+        <li><a class="nav-link" href="#Creador">Creador</a>
+        </li>
+    </ul>
+</nav>
+<main id="main-doc">
+    <section class="main-section" id="Introduccion">
+        <header>Introduccion</header>
+        <article>
+            <p>Python es un lenguaje de programación que regularme despierte la sensación de ser muy "natural" o "simple", esto debe a su principal característica, que es la sintaxis sencilla, la facilidad de las reglas con las que cuenta el lenguaje lo
+                hacen muy comprensible al momento de aprenderlo.</p>
+            <p>Python es un lenguaje completo que solo basta con entender su forma trabajar para que el usuario decida cómo implementar el lenguaje ya que en casi cualquier área del desarrollo de software se puede implementar.</p>
+            <p>Python como lenguaje es moderno e innovador, pero lo sorprendente es que este lenguaje está en el rango de edad de lenguajes como Java, PHP y otros a los que se les ve antiguos y es ahí lo sorprendente de Python, que sin importar la fecha
+                en la que se aprenda nos asombran su diseño y sus capacidades de uso.</p>
+            <p>Durante mucho tiempo Python fue visto como un lenguaje de programación para academias, las matemáticas y la investigación. Con la aparición de "startups" en donde se necesita un tipo de tecnología distinta para el desarrollo de software, más
+                flexible que otros lenguajes de programación de manera general, comienza Python a tomar un nuevo aire como uno de los lenguajes preferidos para la industria del desarrollo de software.</p>
+        </article>
+    </section>
+    <section class="main-section" id="Historia">
+        <header>Historia</header>
+        <article>
+            <p>Python es un lenguaje de programación que se inició a principios de los años noventa, su creador es un holandés llamado Guido Van Rossum que se dedicaba a la investigación. Guido Van Rossum simplemente opto como muchos otros creadores de lenguajes
+                de programación por utilizar uno diferente al que ya le habían sugerido usar, aunque en este caso el que él tenía en mente era uno propio. Entonces se decide crear un lenguaje por los detalles que habiá observado en un lenguaje de programación
+                que se llama ABC.</p>
+            <p>Podemos decir que Python comenzó a ver la luz en el año 1991 pero en realidad solo lo primero que se publicó fue la versión 0.9, en ese momento aún faltaban cosas, pero ya se podía sentir la esencia de Python. Hasta el año 1994 es donde en
+                realidad vemos la versión 1.0.</p>
+            <p>Podemos decir que Python cuenta con 2 versiones de forma general, la 3.x y la 2.x, definiendo X como un número cualquiera como por ejemplo: 2.6, 2.7, etc. Lo mismo pasaría con la versión 3.X. En este caso hay varias justificaciones para esto.</p>
+        </article>
+    </section>
+    <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <article>
+            <p>Las variables son "algo" que como su nombre indica puede variar, por ejemplo imaginamos una caja que cuando vamos a meter una pelota adquiere las dimensiones necesarias para guardarla, pero si fuéramos a necesitar almacenar un carro en esa
+                caja, entonces cambiaría de tamaño para poder introducirlo sin problemas. Eso es una variable.</p>
+            <p>Las variables son una parte básica de la programación, ya que en la mayoría de las situaciones necesitariamos al menos una variable. Las variables pueden tomar diferentes formas o tamaños como se comentó en el párrafo anterior, la pregunta
+                sería:
+            </p>
+            <ul>
+                <li>
+                    <p>¿Cuáles son las formas que puede tomar una variable?</p>
+                </li>
+            </ul>
+            <p>La respuesta sería: Los tipos de datos que tenemos en cada uno de los lenguajes de programación son las "formas" que puede tomar una variable.</p>
+            <p>La unidad básica para medir una variable es el <strong>bit</strong>,aun que en realidad la mayoría lo que hacen es agrupar 8 bits para tomar como medida los<strong>bytes</strong>.</p>
+            <p>Es decir que por ejemplo el "tipo de dato A" puede tener de tamaño 4 bytes y el "tipo de dato B" puede tener el tamaño de 1 byte.</p>
+            <ul>
+                <li><code>1 byte = 8 bits</code></li>
+                <li><code>4 bytes = 32 bits</code></li>
+            </ul>
+            <p> Al asignarle nosotros el tipo de dato a una variable, le estamos diciendo a la computadora que asigne X cantidad de bits a nuestra variable y que nadie más puede tocar esa memoria hasta que finalicemos el programa, por eso no se recomienda
+                declarar variables por declarar ya que estamos utilizando la memoria, un recurso muy valioso hoy en dia para el rendimiento de nuestros programas o aplicaciones.</p>
+        </article>
+    </section>
+    <section class="main-section" id="Tipado">
+        <header>Tipado</header>
+        <article>
+            <p>Tipado como la palabra lo indica hace referencia al tipo, por ahora esto seguramente no nos dice mucho, pero vamos a explicarlo hablando sobre los diferentes tipos que tenemos de tipado en la programación. Existe el tipado estático y el tipado
+                dinámico, esto depende de cómo trabaja cada lenguaje de programacación, por ejemplo el lenguaje de programación Java trabaja con lo que se conoce cmo tipado estático, esto quiere decir que cuando una variable tiene un tipo, este se mantiene
+                siempre y así es como trabaja.</p>
+            <p><strong>Python por otro lado trabaja de manera distinta, utiliza el tipado dinámico</strong>. Esto quiere decir que una variable puede cambiar el tipo dependiendo del momento, además es el lenguaje el que se le asigna el tipo dependiendo de
+                lo que "ve". Por ejemplo podríamos iniciar una variable "X" con el valor de 20 y esto haría que la variable "X" fuera del tipo entero, pero si después le asignamos otro valor, por ejemplo una cadena de texto como: "Esto es una cadena",
+                entonces la variable X ahora tendría como tipo "String" que es una cadena</p>
+        </article>
+    </section>
+    <section class="main-section" id="Tipo_de_datos">
+        <header>Tipo de datos</header>
+        <article>
+            <p>Podemos decir que en Python tenemos 6 tipos que se pueden considerar la base:</p>
+            <ul>
+                <li>Números</li>
+                <li>Strings</li>
+                <li>Boolean</li>
+                <li>Tuplas</li>
+                <li>Listas</li>
+                <li>Diccionarios</li>
+            </ul>
+        </article>
+    </section>1
+    <section class="main-section" id="Números_enteros">
+        <header>Números enteros</header>
+        <article>
+            <p>Los números incluyen varios tipos de datos, vamos a comenzar hablando de los enteros. En el lenguaje se conocen como "int".</p>
+            Enteros
+            <p>Lo que nos indica la palabra int cuando vemos un número es que tenemos un número entero, esto quiere decir que el número no está divido o fraccionado, por ejemplo un número entero sería:<code>0, -10, 90, 999, -16</code></p>
+            <p>Lo que notamos a simple vista es que estos números no tienen decimales, así que si el tipo de dato que vamos a guardar necesita tener los decimales, podemos decir que este tipo de dato no es el que le corresponde. Vamos a crear un entero en
+                Python cambiando la instrucción que teníamos para el "Hola mundo" por la siguiente:<code> n =10</code></p>
+        </article>
+    </section>
+    <section class="main-section" id="Float">
+        <header>Float</header>
+        <article>
+            <p>Float es un tipo de dato que sigue dentro de los tipos de datos de numeros, este tipo de numeros son los que permiten tener numeros fraccionados o podemos decir que son numeros con decimales, por lo tanto son numeros que tiene mayor precisión,
+                en algunos lenguajes de programación se les conoce como reales.</p>
+            <p>Float es una palabra inglesa y en español es común encontrar que se les mencione como números "flotantes" aunque el tipo directamente se llama "Float" y es muy raro que se utilice una traducción, un ejemplo de números flotantes serían estos:<code> 1.89, 99.99, -10.90</code></p>
+        </article>
+    </section>
+    <section class="main-section" id="Números_complejos">
+        <header>Números_complejos</header>
+        <article>
+            <p>Ahora hablaremos de otro tipo de números que seguramente solo se escuchan en las universidades o institutos, los números complejos son números que están formados tanto por letras como números. En la teoría los números complejos son una extensión
+                de los números reales y forman un cuerpo algebraicamente cerrado.</p>
+            <p>En Python vamos a encontrar los números complejos de manera fácil en el código cuando veamos la literal "j". Este es un ejemplo:<code> 1 + 10j </code>
+                <p>Si queremos que el número complejo se encuentre en una variable, entonces haríamos lo siguiente:<code> n = 1 + 10j </code></p>
+        </article>
+    </section>
+    <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+            <ul>
+                <li>Toda la información de esta pagina, fue tomada de <a href="https://python.org" target="_blank">Python</a></li>
+            </ul>
+        </article>
+    </section>
+    <section class="main-section" id="Creador">
+        <header>Creador</header>
+        <article>
+            <ul>
+                <li>Daniel Alejandro Perea Medina</li>
+                <li>Cel 3157863023</li>
+            </ul>
+        </article>
+    </section>
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
